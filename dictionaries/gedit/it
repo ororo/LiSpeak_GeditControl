@@ -1,0 +1,53 @@
+nuovo[ <file,documento>]
+  xType 'keydown Control_L' 'key n' 'keyup Control_L'
+apri[ <[un] file,[un] documento>]
+  xType 'keydown Control_L' 'key o' 'keyup Control_L'
+salva[ [il,questo] < file, documento> [aperto]]
+  xType 'keydown Control_L' 'key s' 'keyup Control_L'
+salva <come,con nome>[ [il,questo] < file, documento> [aperto]]
+  xType 'keydown Shift_L' 'keydown Control_L' 'key s' 'keyup Shift_L' 'keyup Control_L'
+anteprima [di stampa]
+  xType 'keydown Shift_L' 'keydown Control_L' 'key p' 'keyup Shift_L' 'keyup Control_L'
+stampa[ [il,questo] < file, documento> [aperto]]
+  xType 'keydown Control_L' 'key p' 'keyup Control_L'
+chiudi[ [il,questo] < file, documento> [aperto]]
+  xType 'keydown Control_L' 'key w' 'keyup Control_L'
+esci
+  xType 'keydown Control_L' 'key q' 'keyup Control_L'
+annulla
+  xType 'keydown Control_L' 'key z' 'keyup Control_L'
+<rifai, ripeti>
+  xType 'keydown Shift_L' 'keydown Control_L' 'key z' 'keyup Shift_L' 'keyup Control_L'
+taglia[[il] testo]
+  xType 'keydown Control_L' 'key x' 'keyup Control_L'
+incolla[[il] testo]
+  xType 'keydown Control_L' 'key v' 'keyup Control_L'
+copia[[il] testo]
+  xType 'keydown Control_L' 'key c' 'keyup Control_L'
+seleziona tutto[ il testo]
+  xType 'keydown Control_L' 'key a' 'keyup Control_L'
+<mostra, nascondi> <il pannello, la barra> laterale 
+  xType 'key F9'
+<fullscreen, [a] tutto schermo, [a] schermo intero>
+  xType 'key F11'
+trova[[ il] testo]
+  xType 'keydown Control_L' 'key f' 'keyup Control_L'
+sostituisci[[ il] testo]
+  xType 'keydown Control_L' 'key h' 'keyup Control_L'
+vai <a,alla> linea
+  xType 'keydown Control_L' 'key i' 'keyup Control_L'
+salva tutti[ [i] <file,files,documenti>]
+  xType 'keydown Shift_L' 'keydown Control_L' 'key l' 'keyup Shift_L' 'keyup Control_L'
+chiudi tutti[ [i] <file,files,documenti>]
+  xType 'keydown Shift_L' 'keydown Control_L' 'key w' 'keyup Shift_L' 'keyup Control_L'
+nuovo gruppo[ di documenti]
+  xType 'keydown Control_L' 'key Alt_L' 'key n' 'keyup Control_L'
+<<prossimo,successivo> gruppo[ di documenti],gruppo[ di documenti] <prossimo,successivo>>
+  xType 'keydown Shift_L' 'keydown Control_L' 'keydown Alt_L' 'key Page_Down' 'keyup Alt_L' 'keyup Shift_L' 'keyup Control_L'
+<precedente gruppo[ di documenti],gruppo[ di documenti] precedente>
+  xType 'keydown Shift_L' 'keydown Control_L' 'keydown Alt_L' 'key Page_Up' 'keyup Alt_L' 'keyup Shift_L' 'keyup Control_L'
+<<prossimo,successivo> [<file,documento>],<file,documento> <prossimo,successivo>>
+  xType 'keydown Control_L' 'keydown Alt_L' 'key Page_Down' 'keyup Alt_L' 'keyup Control_L'
+<precedente [<file,documento>],<file,documento> precedente>
+  xType 'keydown Control_L' 'keydown Alt_L' 'key Page_Up' 'keyup Alt_L' 'keyup Control_L'
+
